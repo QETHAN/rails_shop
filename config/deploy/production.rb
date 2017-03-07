@@ -7,6 +7,8 @@
 # server "example.com", user: "deploy", roles: %w{app web}, other_property: :other_value
 # server "db.example.com", user: "deploy", roles: %w{db}
 
+set :branch, 'master'
+set :rails_env, 'production'
 server "codedev.cc", user: "deploy", roles: %w{app web db}
 
 
