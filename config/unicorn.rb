@@ -86,6 +86,7 @@
 rails_env = ENV["RAILS_ENV"] || "development"
 rails_root = File.expand_path(__FILE__).split('/')[0..-3].join('/')
 
+puts rails_root 
 port_number = 5000
 process_number = rails_env == 'production' ? 2 : 1
 
@@ -94,7 +95,8 @@ puts "unicorn port: #{port_number}"
 puts "unicorn process number: #{process_number}"
 
 preload_app true
-working_directory rails_root
+# working_directory rails_root
+working_directory "/var/www/rails_shop/"
 pid "#{rails_root}/tmp/pids/unicorn.pid"
 stderr_path "#{rails_root}/log/unicorn.log"
 stdout_path "#{rails_root}/log/unicorn.log"
