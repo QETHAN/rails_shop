@@ -12,7 +12,8 @@ gem 'rails', '~> 5.0.1'
 # gem 'sqlite3'
 gem 'mysql2'
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0'
+# gem 'sass-rails', '~> 5.0'
+gem 'sassc-rails'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
@@ -31,6 +32,10 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+
+gem 'bootstrap-sass'
+gem 'font-awesome-rails'
+gem 'sorcery'
 
 gem 'unicorn'
 
