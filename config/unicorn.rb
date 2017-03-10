@@ -94,7 +94,7 @@ puts "unicorn port: #{port_number}"
 puts "unicorn process number: #{process_number}"
 
 preload_app true
-working_directory "#{rails_root}/current"
+working_directory "/var/www/rails_shop/current"
 pid "#{rails_root}/tmp/pids/unicorn.pid"
 stderr_path "#{rails_root}/log/unicorn.log"
 stdout_path "#{rails_root}/log/unicorn.log"
