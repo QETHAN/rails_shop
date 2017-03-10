@@ -9,7 +9,7 @@ class UsersController < ApplicationController
 
     if @user.save 
       flash[:notice] = "注册成功"
-      redirect_to root_path
+      redirect_to new_session_path
     else
       render :new
     end
