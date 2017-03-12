@@ -14,6 +14,7 @@ class Product < ApplicationRecord
 
 
   belongs_to :category
+  has_many :product_images, -> { order(weight: 'desc') }, dependent: :destroy
 
   scope :onshelf, -> { where(status: Status::On) }
 
