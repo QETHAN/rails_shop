@@ -1,0 +1,94 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ActiveSupport	test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c
+AddAncestryToCategory	db/migrate/20170309151844_add_ancestry_to_category.rb	/^class AddAncestryToCategory < ActiveRecord::Migration[5.0]$/;"	c
+AddIndexToProductImages	db/migrate/20170312080234_add_index_to_product_images.rb	/^class AddIndexToProductImages < ActiveRecord::Migration[5.0]$/;"	c
+Admin	app/controllers/admin/base_controller.rb	/^class Admin::BaseController < ActionController::Base$/;"	c
+Admin	app/controllers/admin/categories_controller.rb	/^class Admin::CategoriesController < Admin::BaseController$/;"	c
+Admin	app/controllers/admin/product_images_controller.rb	/^class Admin::ProductImagesController < Admin::BaseController$/;"	c
+Admin	app/controllers/admin/products_controller.rb	/^class Admin::ProductsController < Admin::BaseController$/;"	c
+Admin	app/controllers/admin/sessions_controller.rb	/^class Admin::SessionsController < Admin::BaseController$/;"	c
+Admin	app/helpers/admin/base_helper.rb	/^module Admin::BaseHelper$/;"	m
+Admin	app/helpers/admin/categories_helper.rb	/^module Admin::CategoriesHelper$/;"	m
+Admin	app/helpers/admin/sessions_helper.rb	/^module Admin::SessionsHelper$/;"	m
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:RailsShop
+ApplicationCable	app/channels/application_cable/channel.rb	/^module ApplicationCable$/;"	m
+ApplicationCable	app/channels/application_cable/connection.rb	/^module ApplicationCable$/;"	m
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+ApplicationJob	app/jobs/application_job.rb	/^class ApplicationJob < ActiveJob::Base$/;"	c
+ApplicationMailer	app/mailers/application_mailer.rb	/^class ApplicationMailer < ActionMailer::Base$/;"	c
+ApplicationRecord	app/models/application_record.rb	/^class ApplicationRecord < ActiveRecord::Base$/;"	c
+Category	app/models/category.rb	/^class Category < ApplicationRecord$/;"	c
+Channel	app/channels/application_cable/channel.rb	/^  class Channel < ActionCable::Channel::Base$/;"	c	class:ApplicationCable
+Connection	app/channels/application_cable/connection.rb	/^  class Connection < ActionCable::Connection::Base$/;"	c	class:ApplicationCable
+CreateCategories	db/migrate/20170309140044_create_categories.rb	/^class CreateCategories < ActiveRecord::Migration[5.0]$/;"	c
+CreateProductImages	db/migrate/20170311152808_create_product_images.rb	/^class CreateProductImages < ActiveRecord::Migration[5.0]$/;"	c
+CreateProducts	db/migrate/20170309140053_create_products.rb	/^class CreateProducts < ActiveRecord::Migration[5.0]$/;"	c
+Product	app/models/product.rb	/^class Product < ApplicationRecord$/;"	c
+ProductImage	app/models/product_image.rb	/^class ProductImage < ApplicationRecord$/;"	c
+RailsShop	config/application.rb	/^module RailsShop$/;"	m
+RandomCode	lib/random_code.rb	/^module RandomCode$/;"	m
+SessionsController	app/controllers/sessions_controller.rb	/^class SessionsController < ApplicationController$/;"	c
+SorceryCore	db/migrate/20170309025200_sorcery_core.rb	/^class SorceryCore < ActiveRecord::Migration[5.0]$/;"	c
+SorceryRememberMe	db/migrate/20170309025438_sorcery_remember_me.rb	/^class SorceryRememberMe < ActiveRecord::Migration[5.0]$/;"	c
+SorceryResetPassword	db/migrate/20170309025439_sorcery_reset_password.rb	/^class SorceryResetPassword < ActiveRecord::Migration[5.0]$/;"	c
+SorceryUserActivation	db/migrate/20170309025437_sorcery_user_activation.rb	/^class SorceryUserActivation < ActiveRecord::Migration[5.0]$/;"	c
+Status	app/models/product.rb	/^  module Status$/;"	m	class:Product
+User	app/models/user.rb	/^class User < ApplicationRecord$/;"	c
+UserMailer	app/mailers/user_mailer.rb	/^class UserMailer < ApplicationMailer$/;"	c
+UsersController	app/controllers/users_controller.rb	/^class UsersController < ApplicationController$/;"	c
+WelcomeController	app/controllers/welcome_controller.rb	/^class WelcomeController < ApplicationController$/;"	c
+WelcomeHelper	app/helpers/welcome_helper.rb	/^module WelcomeHelper$/;"	m
+add_active_class	app/helpers/admin/base_helper.rb	/^  def add_active_class path $/;"	f	class:Admin
+change	db/migrate/20170309025200_sorcery_core.rb	/^  def change$/;"	f	class:SorceryCore
+change	db/migrate/20170309025437_sorcery_user_activation.rb	/^  def change$/;"	f	class:SorceryUserActivation
+change	db/migrate/20170309025438_sorcery_remember_me.rb	/^  def change$/;"	f	class:SorceryRememberMe
+change	db/migrate/20170309025439_sorcery_reset_password.rb	/^  def change$/;"	f	class:SorceryResetPassword
+change	db/migrate/20170309140044_create_categories.rb	/^  def change$/;"	f	class:CreateCategories
+change	db/migrate/20170309140053_create_products.rb	/^  def change$/;"	f	class:CreateProducts
+change	db/migrate/20170309151844_add_ancestry_to_category.rb	/^  def change$/;"	f	class:AddAncestryToCategory
+change	db/migrate/20170311152808_create_product_images.rb	/^  def change$/;"	f	class:CreateProductImages
+change	db/migrate/20170312080234_add_index_to_product_images.rb	/^  def change$/;"	f	class:AddIndexToProductImages
+correct_ancestry	app/models/category.rb	/^    def correct_ancestry$/;"	f	class:Category
+create	app/controllers/admin/categories_controller.rb	/^  def create$/;"	f	class:Admin
+create	app/controllers/admin/product_images_controller.rb	/^  def create$/;"	f	class:Admin
+create	app/controllers/admin/products_controller.rb	/^  def create$/;"	f	class:Admin
+create	app/controllers/sessions_controller.rb	/^  def create$/;"	f	class:SessionsController
+create	app/controllers/users_controller.rb	/^  def create$/;"	f	class:UsersController
+destroy	app/controllers/admin/categories_controller.rb	/^  def destroy$/;"	f	class:Admin
+destroy	app/controllers/admin/product_images_controller.rb	/^  def destroy$/;"	f	class:Admin
+destroy	app/controllers/admin/products_controller.rb	/^  def destroy$/;"	f	class:Admin
+destroy	app/controllers/sessions_controller.rb	/^  def destroy$/;"	f	class:SessionsController
+edit	app/controllers/admin/categories_controller.rb	/^  def edit$/;"	f	class:Admin
+edit	app/controllers/admin/products_controller.rb	/^  def edit$/;"	f	class:Admin
+find_category	app/controllers/admin/categories_controller.rb	/^    def find_category$/;"	f	class:Admin
+find_product	app/controllers/admin/product_images_controller.rb	/^    def find_product$/;"	f	class:Admin
+find_product	app/controllers/admin/products_controller.rb	/^    def find_product$/;"	f	class:Admin
+find_root_categories	app/controllers/admin/categories_controller.rb	/^    def find_root_categories$/;"	f	class:Admin
+generate_cellphone_token	lib/random_code.rb	/^    def generate_cellphone_token len = 6$/;"	f	class:RandomCode
+generate_order_uuid	lib/random_code.rb	/^    def generate_order_uuid$/;"	f	class:RandomCode
+generate_password	lib/random_code.rb	/^    def generate_password len = 8$/;"	f	class:RandomCode
+generate_product_uuid	lib/random_code.rb	/^    def generate_product_uuid$/;"	f	class:RandomCode
+generate_utoken	lib/random_code.rb	/^    def generate_utoken len = 8$/;"	f	class:RandomCode
+hello	app/controllers/welcome_controller.rb	/^  def hello$/;"	f	class:WelcomeController
+index	app/controllers/admin/categories_controller.rb	/^  def index$/;"	f	class:Admin
+index	app/controllers/admin/product_images_controller.rb	/^  def index$/;"	f	class:Admin
+index	app/controllers/admin/products_controller.rb	/^  def index$/;"	f	class:Admin
+need_validate_password	app/models/user.rb	/^    def need_validate_password$/;"	f	class:User
+new	app/controllers/admin/categories_controller.rb	/^  def new$/;"	f	class:Admin
+new	app/controllers/admin/products_controller.rb	/^  def new$/;"	f	class:Admin
+new	app/controllers/admin/sessions_controller.rb	/^  def new$/;"	f	class:Admin
+new	app/controllers/sessions_controller.rb	/^  def new$/;"	f	class:SessionsController
+new	app/controllers/users_controller.rb	/^  def new$/;"	f	class:UsersController
+set_default_attrs	app/models/product.rb	/^    def set_default_attrs$/;"	f	class:Product
+system!	bin/setup	/^def system!(*args)$/;"	f
+system!	bin/update	/^def system!(*args)$/;"	f
+update	app/controllers/admin/categories_controller.rb	/^  def update$/;"	f	class:Admin
+update	app/controllers/admin/product_images_controller.rb	/^  def update$/;"	f	class:Admin
+update	app/controllers/admin/products_controller.rb	/^  def update$/;"	f	class:Admin
+username	app/models/user.rb	/^  def username $/;"	f	class:User

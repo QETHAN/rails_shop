@@ -19,6 +19,8 @@ module RailsShop
 
     config.eager_load_paths << Rails.root.join('lib')
 
+    # config.assets.paths << File.join(Rails.root, 'app', 'assets', 'images', 'wedding')
+
     config.generators do |generator|
       generator.assets false
       generator.test_framework false
